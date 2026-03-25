@@ -1,5 +1,4 @@
-# ![CI](https://github.com/<USER>/<REPO>/actions/workflows/ci.yml/badge.svg)
-# AI RED TEAM BOT — Enterprise Penetration Testing Assistant
+# PhantomStrike-AI
 
 **Version 2.0**
 
