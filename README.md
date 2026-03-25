@@ -1,4 +1,4 @@
-# PhantomStrike-AI
+# PhantomStrike-AI — Enterprise Penetration Testing Assistant
 
 **Version 2.0**
 
@@ -8,7 +8,7 @@
 
 ## 1. Description
 
-AI Red Team Bot is a modular automated penetration testing framework, designed to assist security analysts and red teamers during vulnerability assessment activities in controlled enterprise environments.
+PhantomStrike-AI is a modular automated penetration testing framework, designed to assist security analysts and red teamers during vulnerability assessment activities in controlled enterprise environments.
 
 The bot performs a complete pen testing workflow in 6 phases:
 
@@ -115,14 +115,23 @@ Non-destructive tests executed in safe mode:
 
 ---
 
+
 ## 3. Requirements
 
 - Python 3.8 or higher
 - Python libraries (see `requirements.txt`):
-  - `reportlab >= 4.0` (PDF generation)
-  - `requests >= 2.31` (HTTP requests)
-  - `urllib3 >= 2.0` (connection handling)
-- Standard library modules: `argparse`, `asyncio`, `ftplib`, `json`, `logging`, `re`, `signal`, `smtplib`, `socket`, `sqlite3`, `ssl`, `sys`, `time`, `datetime`, `ipaddress`
+   - `requests >= 2.31` (HTTP requests)
+   - `pyyaml >= 6.0` (YAML config support)
+   - `reportlab >= 4.0` (PDF generation)
+   - `pytest >= 7.0` (testing)
+   - `uvicorn >= 0.23` (API server)
+   - `fastapi >= 0.110` (API server)
+- Standard library modules: `argparse`, `asyncio`, `ftplib`, `json`, `logging`, `re`, `signal`, `smtplib`, `socket`, `sqlite3`, `ssl`, `sys`, `time`, `datetime`, `ipaddress`, `base64`, `threading`
+
+**Optional for advanced features:**
+- `cryptography` (for credential vault encryption)
+- `matplotlib` (for PDF report charts)
+
 
 ---
 
@@ -144,6 +153,10 @@ Non-destructive tests executed in safe mode:
 3. Install dependencies:
    ```sh
    pip install -r requirements.txt
+   ```
+   For optional features (encryption, charts):
+   ```sh
+   pip install cryptography matplotlib
    ```
 
 ---
@@ -195,7 +208,7 @@ python PhantomStrike_AI.py 192.168.1.1 -v
 ### 5.4 Sample output (with colors)
 ```
 ╔══════════════════════════════════════════════════════════╗
-║       AI Red Team Bot — Enterprise Pen Test Assistant   ║
+║       PhantomStrike-AI — Enterprise Pen Test Assistant   ║
 ║       ⚠️  Authorized environments / labs ONLY           ║
 ╚══════════════════════════════════════════════════════════╝
 
