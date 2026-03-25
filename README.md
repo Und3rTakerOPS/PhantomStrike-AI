@@ -512,18 +512,18 @@ All user-facing messages are localized. To add a new language:
 
 ---
 
-## Moduli opzionali e warning
+## Optional modules and warnings
 
-Questa applicazione utilizza alcune librerie opzionali per funzionalità avanzate:
+This application uses some optional libraries for advanced features:
 
-- **cryptography**: necessaria per la cifratura (Fernet). Se non installata, la cifratura sarà disabilitata e verrà mostrato un warning. Installa con:
+- **cryptography**: required for encryption (Fernet). If not installed, encryption will be disabled and a warning will be shown. Install with:
   
-  pip install cryptography
+   pip install cryptography
 
-- **matplotlib**: necessaria per la generazione di grafici nei report PDF. Se non installata, i grafici non saranno inclusi e verrà mostrato un warning. Installa con:
+- **matplotlib**: required for generating charts in PDF reports. If not installed, charts will not be included and a warning will be shown. Install with:
   
-  pip install matplotlib
+   pip install matplotlib
 
-- **reportlab (TableOfContents)**: alcune versioni di reportlab potrebbero non supportare l’assegnazione diretta di stili all’indice automatico. In caso di incompatibilità, il report PDF verrà comunque generato ma l’indice potrebbe non essere formattato correttamente. Consulta la documentazione di reportlab per dettagli.
+- **reportlab (TableOfContents)**: some versions of reportlab may not support direct style assignment to the automatic index. In case of incompatibility, the PDF report will still be generated but the index may not be formatted correctly. See the reportlab documentation for details.
 
-Tutti questi warning non bloccano l’esecuzione del tool, ma limitano alcune funzionalità avanzate.
+All these warnings do not block the tool execution, but limit some advanced features.
