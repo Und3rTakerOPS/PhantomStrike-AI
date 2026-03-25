@@ -1,0 +1,33 @@
+# REST API - AI Red Team Bot
+
+Questa API REST consente di orchestrare e integrare il bot con altri strumenti, dashboard, pipeline CI/CD, ecc.
+
+## Avvio
+
+- Avvia il bot in modalità API con il flag `--api`.
+- La REST API gira su `http://127.0.0.1:8000` di default.
+- Documentazione interattiva Swagger su `/docs`.
+
+## Endpoints principali
+
+- `POST /scan` — Avvia una scansione su uno o più target.
+  - Body: `{ "targets": ["host1", "host2"], "options": { ... } }`
+  - Risposta: ID scansione e stato.
+- `GET /status` — Stato delle scansioni in corso e storico.
+- `GET /results/{scan_id}` — Risultati dettagliati di una scansione.
+- `GET /plugins` — Elenco plugin caricati.
+- `GET /health` — Healthcheck API.
+
+## Sicurezza
+- Di default solo localhost.
+- Possibilità di API key (vedi README).
+
+## Esempio chiamata scan
+```bash
+curl -X POST http://127.0.0.1:8000/scan -H "Content-Type: application/json" -d '{"targets": ["192.168.1.1"]}'
+```
+
+## Note
+- Tutte le funzionalità CLI sono disponibili anche via API.
+- La documentazione OpenAPI è sempre aggiornata su `/docs`.
+- Per personalizzazioni avanzate, vedi README.txt.

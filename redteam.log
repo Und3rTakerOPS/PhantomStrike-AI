@@ -1,0 +1,133 @@
+2026-03-23 13:12:50,741 [INFO] Plugin caricato: ftp_weakpass
+2026-03-23 13:12:50,765 [INFO] 
+[1m[93m=== SCAN TARGET: 127.0.0.1 ===[0m
+2026-03-23 13:12:50,768 [INFO] Avvio scan su [1m[96m127.0.0.1[0m
+2026-03-23 13:12:50,769 [INFO] [92mTarget 127.0.0.1 è un IP privato (rete locale/lab).[0m
+2026-03-23 13:12:50,773 [INFO] [94mFase 1: Port Scanning + Banner Grabbing...[0m
+2026-03-23 13:12:52,828 [INFO] Porte aperte: [92m[445][0m ([90m2.05s[0m)
+2026-03-23 13:12:52,828 [INFO] [94mFase 2: Analisi Vulnerabilità...[0m
+2026-03-23 13:12:52,829 [INFO] Vulnerabilità rilevate: [93m1[0m ([90m0.0s[0m)
+2026-03-23 13:12:52,829 [INFO] [94mFase 3: AI Scoring e Prioritizzazione...[0m
+2026-03-23 13:12:52,829 [INFO]   [91m[1m[CRITICAL][0m Score 15.0: SMB esposto - rischio EternalBlue/condivisioni aperte
+2026-03-23 13:12:52,830 [INFO] [94mFase 4: Safe Exploit Testing...[0m
+2026-03-23 13:12:52,830 [INFO] Exploit completati: [92m0 successi[0m / 1 test ([90m0.0s[0m)
+2026-03-23 13:12:52,830 [INFO] [94mFase 5: Salvataggio risultati...[0m
+2026-03-23 13:12:52,841 [INFO] [94mFase 6: Generazione Report...[0m
+2026-03-23 13:12:52,852 [INFO]   PDF: [92mreport_127.0.0.1_20260323_131252.pdf[0m
+2026-03-23 13:12:52,854 [INFO]   JSON: [92mreport_127.0.0.1_20260323_131252.json[0m
+2026-03-23 13:12:52,854 [INFO] 
+2026-03-23 13:12:52,854 [INFO] [1m============================================================[0m
+2026-03-23 13:12:52,854 [INFO] [1m[92m SCAN COMPLETATO[0m
+2026-03-23 13:12:52,855 [INFO] [1m============================================================[0m
+2026-03-23 13:12:52,855 [INFO]   Target:         [96m127.0.0.1[0m
+2026-03-23 13:12:52,855 [INFO]   Sessione:       #1
+2026-03-23 13:12:52,855 [INFO]   Porte aperte:   1
+2026-03-23 13:12:52,855 [INFO]   Vulnerabilità:  1
+2026-03-23 13:12:52,855 [INFO]   Exploit OK:     0
+2026-03-23 13:12:52,856 [INFO]   Durata totale:  [1m2.07s[0m
+2026-03-23 13:12:52,856 [INFO]   File generati:  report_127.0.0.1_20260323_131252.pdf, report_127.0.0.1_20260323_131252.json
+2026-03-23 13:12:52,856 [INFO] [1m============================================================[0m
+2026-03-23 14:19:53,298 [INFO] Plugin caricato: ftp_weakpass
+2026-03-23 14:21:29,000 [INFO] 
+[1m[93m=== SCAN TARGET: 192.168.1.1 ===[0m
+2026-03-23 14:21:29,004 [INFO] Avvio scan su [1m[96m192.168.1.1[0m
+2026-03-23 14:21:29,005 [INFO] [92mTarget 192.168.1.1 è un IP privato (rete locale/lab).[0m
+2026-03-23 14:21:29,011 [INFO] [94mFase 1: Port Scanning + Banner Grabbing...[0m
+2026-03-23 14:21:32,016 [INFO] Porte aperte: [92m[21, 53, 80, 443][0m ([90m3.0s[0m)
+2026-03-23 14:21:32,016 [INFO] [94mFase 2: Analisi Vulnerabilità...[0m
+2026-03-23 14:21:32,932 [INFO] Vulnerabilità rilevate: [93m5[0m ([90m0.92s[0m)
+2026-03-23 14:21:32,932 [INFO] [94mFase 3: AI Scoring e Prioritizzazione...[0m
+2026-03-23 14:21:32,932 [INFO]   [91m[HIGH][0m Score 9.0: FTP esposto - possibile anonymous login
+2026-03-23 14:21:32,933 [INFO]   [91m[1m[CRITICAL][0m Score 8.0: Certificato non valido: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-03-23 14:21:32,933 [INFO]   [91m[HIGH][0m Score 7.5: Server HTTP esposto - potenziali vulnerabilità web
+2026-03-23 14:21:32,933 [INFO]   [93m[MEDIUM][0m Score 5.0: Security headers mancanti: Strict-Transport-Security
+2026-03-23 14:21:32,933 [INFO]   [90m[INFO][0m Score 0.9: Servizio dns esposto su porta 53
+2026-03-23 14:21:32,933 [INFO] [94mFase 4: Safe Exploit Testing...[0m
+2026-03-23 14:21:46,521 [WARNING] 
+[93mInterruzione ricevuta (Ctrl+C). Chiusura in corso...[0m
+2026-03-23 14:21:46,527 [INFO] Sessione DB chiusa correttamente.
+2026-03-23 14:22:14,946 [INFO] Plugin caricato: ftp_weakpass
+2026-03-23 14:22:27,106 [INFO] 
+[1m[93m=== SCAN TARGET: 192.168.1.30 ===[0m
+2026-03-23 14:22:27,108 [INFO] Avvio scan su [1m[96m192.168.1.30[0m
+2026-03-23 14:22:27,108 [INFO] [92mTarget 192.168.1.30 è un IP privato (rete locale/lab).[0m
+2026-03-23 14:22:27,116 [INFO] [94mFase 1: Port Scanning + Banner Grabbing...[0m
+2026-03-23 14:22:29,180 [INFO] Porte aperte: [92m[445][0m ([90m2.06s[0m)
+2026-03-23 14:22:29,180 [INFO] [94mFase 2: Analisi Vulnerabilità...[0m
+2026-03-23 14:22:29,180 [INFO] Vulnerabilità rilevate: [93m1[0m ([90m0.0s[0m)
+2026-03-23 14:22:29,180 [INFO] [94mFase 3: AI Scoring e Prioritizzazione...[0m
+2026-03-23 14:22:29,181 [INFO]   [91m[1m[CRITICAL][0m Score 15.0: SMB esposto - rischio EternalBlue/condivisioni aperte
+2026-03-23 14:22:29,181 [INFO] [94mFase 4: Safe Exploit Testing...[0m
+2026-03-23 14:22:29,181 [INFO] Exploit completati: [92m0 successi[0m / 1 test ([90m0.0s[0m)
+2026-03-23 14:22:29,181 [INFO] [94mFase 5: Salvataggio risultati...[0m
+2026-03-23 14:22:29,188 [INFO] [94mFase 5B: Esecuzione moduli Java...[0m
+2026-03-23 14:22:29,188 [INFO] [JAVA] Eseguo: java SshBruteForce 192.168.1.30 userlist.txt passlist.txt
+2026-03-23 14:22:29,305 [INFO] [JAVA][SshBruteForce] Output:
+
+2026-03-23 14:22:29,305 [WARNING] [JAVA][SshBruteForce] Errori:
+Errore: impossibile trovare o caricare la classe principale SshBruteForce
+Causato da: java.lang.ClassNotFoundException: SshBruteForce
+
+2026-03-23 14:22:29,305 [INFO] [JAVA] Eseguo: java WebDirFuzzer http://192.168.1.30 wordlist.txt
+2026-03-23 14:22:29,387 [INFO] [JAVA][WebDirFuzzer] Output:
+
+2026-03-23 14:22:29,388 [WARNING] [JAVA][WebDirFuzzer] Errori:
+Errore: impossibile trovare o caricare la classe principale WebDirFuzzer
+Causato da: java.lang.ClassNotFoundException: WebDirFuzzer
+
+2026-03-23 14:22:29,388 [INFO] [JAVA] Eseguo: java WebTechDetector http://192.168.1.30
+2026-03-23 14:22:29,468 [INFO] [JAVA][WebTechDetector] Output:
+
+2026-03-23 14:22:29,468 [WARNING] [JAVA][WebTechDetector] Errori:
+Errore: impossibile trovare o caricare la classe principale WebTechDetector
+Causato da: java.lang.ClassNotFoundException: WebTechDetector
+
+2026-03-23 14:22:29,468 [INFO] [JAVA] Eseguo: java DefaultCredsTester ftp 192.168.1.30
+2026-03-23 14:22:29,550 [INFO] [JAVA][DefaultCredsTester] Output:
+
+2026-03-23 14:22:29,551 [WARNING] [JAVA][DefaultCredsTester] Errori:
+Errore: impossibile trovare o caricare la classe principale DefaultCredsTester
+Causato da: java.lang.ClassNotFoundException: DefaultCredsTester
+
+2026-03-23 14:22:29,551 [INFO] [JAVA] Eseguo: java CveBannerScanner banner_example cve_db.csv
+2026-03-23 14:22:29,628 [INFO] [JAVA][CveBannerScanner] Output:
+
+2026-03-23 14:22:29,628 [WARNING] [JAVA][CveBannerScanner] Errori:
+Errore: impossibile trovare o caricare la classe principale CveBannerScanner
+Causato da: java.lang.ClassNotFoundException: CveBannerScanner
+
+2026-03-23 14:22:29,629 [INFO] [JAVA] Eseguo: java SslCertAnalyzer 192.168.1.30
+2026-03-23 14:22:29,708 [INFO] [JAVA][SslCertAnalyzer] Output:
+
+2026-03-23 14:22:29,709 [WARNING] [JAVA][SslCertAnalyzer] Errori:
+Errore: impossibile trovare o caricare la classe principale SslCertAnalyzer
+Causato da: java.lang.ClassNotFoundException: SslCertAnalyzer
+
+2026-03-23 14:22:29,709 [INFO] [JAVA] Eseguo: java DnsEnumerator 192.168.1.30 wordlist.txt
+2026-03-23 14:22:29,792 [INFO] [JAVA][DnsEnumerator] Output:
+
+2026-03-23 14:22:29,793 [WARNING] [JAVA][DnsEnumerator] Errori:
+Errore: impossibile trovare o caricare la classe principale DnsEnumerator
+Causato da: java.lang.ClassNotFoundException: DnsEnumerator
+
+2026-03-23 14:22:29,793 [INFO] [JAVA] Eseguo: java HttpHeadersAnalyzer http://192.168.1.30
+2026-03-23 14:22:29,867 [INFO] [JAVA][HttpHeadersAnalyzer] Output:
+
+2026-03-23 14:22:29,868 [WARNING] [JAVA][HttpHeadersAnalyzer] Errori:
+Errore: impossibile trovare o caricare la classe principale HttpHeadersAnalyzer
+Causato da: java.lang.ClassNotFoundException: HttpHeadersAnalyzer
+
+2026-03-23 14:22:29,873 [INFO] [94mFase 6: Generazione Report...[0m
+2026-03-23 14:22:29,891 [INFO]   PDF: [92mreport_192.168.1.30_20260323_142229.pdf[0m
+2026-03-23 14:22:29,891 [INFO] 
+2026-03-23 14:22:29,891 [INFO] [1m============================================================[0m
+2026-03-23 14:22:29,892 [INFO] [1m[92m SCAN COMPLETATO[0m
+2026-03-23 14:22:29,892 [INFO] [1m============================================================[0m
+2026-03-23 14:22:29,892 [INFO]   Target:         [96m192.168.1.30[0m
+2026-03-23 14:22:29,892 [INFO]   Sessione:       #3
+2026-03-23 14:22:29,892 [INFO]   Porte aperte:   1
+2026-03-23 14:22:29,893 [INFO]   Vulnerabilità:  1
+2026-03-23 14:22:29,893 [INFO]   Exploit OK:     0
+2026-03-23 14:22:29,893 [INFO]   Durata totale:  [1m2.76s[0m
+2026-03-23 14:22:29,893 [INFO]   File generati:  report_192.168.1.30_20260323_142229.pdf
+2026-03-23 14:22:29,893 [INFO] [1m============================================================[0m

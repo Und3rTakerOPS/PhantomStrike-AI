@@ -1,0 +1,22 @@
+MESSAGES = {
+    "invalid_target": "Invalid target: must be a valid IP or domain.",
+    "private_ip": "Warning: the target is a private IP address.",
+    "scan_start": "Starting scan for {target}...",
+    "scan_complete": "Scan complete for {target}.",
+    "port_open": "Port {port} is open.",
+    "port_closed": "Port {port} is closed.",
+    "exploit_success": "Exploit succeeded on {service}:{port}.",
+    "exploit_fail": "Exploit failed on {service}:{port}.",
+    "report_generated": "Report generated: {filename}",
+    "plugin_loaded": "Plugin loaded: {name}",
+    "plugin_error": "Error loading plugin: {name}",
+    "session_start": "Session started for {target}.",
+    "session_end": "Session ended for {target}.",
+    "db_error": "Database error: {error}",
+    "config_error": "Configuration error: {error}",
+    "http_error": "HTTP error for {target}:{port}: {error}",
+    "ssl_error": "SSL error for {target}:{port}: {error}",
+    "critical_error": "CRITICAL ERROR: {error}",
+    "usage": "Usage: python PhantomStrike_AI.py [options]",
+    "help": "Use --help for available options."
+}

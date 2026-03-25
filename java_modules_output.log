@@ -1,0 +1,47 @@
+[JAVA][SshBruteForce] Output:
+
+[JAVA][SshBruteForce] Errori:
+Errore: impossibile trovare o caricare la classe principale SshBruteForce
+Causato da: java.lang.ClassNotFoundException: SshBruteForce
+
+[JAVA][WebDirFuzzer] Output:
+
+[JAVA][WebDirFuzzer] Errori:
+Errore: impossibile trovare o caricare la classe principale WebDirFuzzer
+Causato da: java.lang.ClassNotFoundException: WebDirFuzzer
+
+[JAVA][WebTechDetector] Output:
+
+[JAVA][WebTechDetector] Errori:
+Errore: impossibile trovare o caricare la classe principale WebTechDetector
+Causato da: java.lang.ClassNotFoundException: WebTechDetector
+
+[JAVA][DefaultCredsTester] Output:
+
+[JAVA][DefaultCredsTester] Errori:
+Errore: impossibile trovare o caricare la classe principale DefaultCredsTester
+Causato da: java.lang.ClassNotFoundException: DefaultCredsTester
+
+[JAVA][CveBannerScanner] Output:
+
+[JAVA][CveBannerScanner] Errori:
+Errore: impossibile trovare o caricare la classe principale CveBannerScanner
+Causato da: java.lang.ClassNotFoundException: CveBannerScanner
+
+[JAVA][SslCertAnalyzer] Output:
+
+[JAVA][SslCertAnalyzer] Errori:
+Errore: impossibile trovare o caricare la classe principale SslCertAnalyzer
+Causato da: java.lang.ClassNotFoundException: SslCertAnalyzer
+
+[JAVA][DnsEnumerator] Output:
+
+[JAVA][DnsEnumerator] Errori:
+Errore: impossibile trovare o caricare la classe principale DnsEnumerator
+Causato da: java.lang.ClassNotFoundException: DnsEnumerator
+
+[JAVA][HttpHeadersAnalyzer] Output:
+
+[JAVA][HttpHeadersAnalyzer] Errori:
+Errore: impossibile trovare o caricare la classe principale HttpHeadersAnalyzer
+Causato da: java.lang.ClassNotFoundException: HttpHeadersAnalyzer
